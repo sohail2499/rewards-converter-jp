@@ -7,7 +7,7 @@
 public class RewardValue {
     private final double cashValue;
     private final double milesValue;
-    private static final double MILES_T0_CASH_RATE = 0.0035;
+    public static final double MILES_T0_CASH_RATE = 0.0035;
 
 
     public RewardValue(double cashValue) {
